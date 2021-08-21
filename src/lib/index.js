@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { format as dateFormat } from "date-fns";
-import { string, number, object, func } from "prop-types";
+import { string, number, object } from "prop-types";
 
 export default function LiveClock(props) {
   const {
